@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push
+
+jobs:
+  build:
+    name: build-and-test-${{ matrix.os }}
+    strategy:
+      matrix:
+        include:
+          - os: ubuntu-latest
+            build-script: ./build.sh
+          - os: windows-latest
+            build-script: ./build.ps1
+    runs-on: ${{ matrix.os }}
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: 10.0.x
+
+    - name: Build
+      run: ${{ matrix.build-script }} build
+
+    - name: Test
+      run: ${{ matrix.build-script }} test

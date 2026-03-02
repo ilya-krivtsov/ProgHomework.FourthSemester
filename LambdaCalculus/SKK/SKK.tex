@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\[
+\begin{aligned}
+& \quad\quad~S~                                        K~                      K \\
+& ~ = ~      (\lambda x.\lambda y.\lambda z.x~z~(y~z))~(\lambda x.\lambda y.x)~K \\
+& \to_\alpha (\lambda x.\lambda y.\lambda z.x~z~(y~z))~(\lambda a.\lambda b.a)~K \\
+& \to_\beta            (\lambda y.\lambda z.(\lambda a.\lambda b.a)~z~(y~z))~  K \\
+& \to_\beta            (\lambda y.\lambda z.(\lambda b.z)~            (y~z))~  K \\
+& \to_\beta            (\lambda y.\lambda z.z)~                                K \\
+& \to_\beta                      (\lambda z.z)                                   \\
+& ~ = ~                          I
+\end{aligned}
+\]
+
+\end{document}

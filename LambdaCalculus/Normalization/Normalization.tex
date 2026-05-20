@@ -1,0 +1,16 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\[
+\begin{aligned}
+& \quad\quad ((\lambda a.(\lambda b.b~b)~(\lambda b.b~b))~b)~((\lambda c.(c~b))~(\lambda a.a)) \\
+& ~ = ~      ((\lambda a.\Omega)~                         b)~((\lambda c.(c~b))~I)             \\
+& \to_\beta  \Omega~                                         ((\lambda c.(c~b))~I)             \\
+& \to_\beta  \Omega~                                                     (I~b)                 \\
+& \to_\beta  \Omega~                                                        b                  \\
+\end{aligned}
+\]
+
+\end{document}

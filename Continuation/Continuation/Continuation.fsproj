@@ -9,7 +9,6 @@
     <Compile Include="BinaryTreeMap.fs" />
     <Compile Include="EvenNumbers.fs" />
     <Compile Include="ParseTree.fs" />
-    <Compile Include="PowerSeries.fs" />
     <Compile Include="PrimeNumbers.fs" />
   </ItemGroup>
 

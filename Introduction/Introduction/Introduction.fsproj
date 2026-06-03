@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="ElementSearch.fs" />
+    <Compile Include="Factorial.fs" />
+    <Compile Include="Fibonacci.fs" />
+    <Compile Include="ListReversal.fs" />
+    <Compile Include="PowerSeries.fs" />
+  </ItemGroup>
+
+</Project>

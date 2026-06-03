@@ -4,16 +4,25 @@
 
 module ParseTree
 
+/// <summary>
+/// Type of mathematical operation.
+/// </summary>
 type MathOperationType =
     | Addition
     | Subtraction
     | Multiplication
     | Division
 
+/// <summary>
+/// Parse tree node.
+/// </summary>
 type ParseTree =
     | Value of int
     | Operation of MathOperation
 
+/// <summary>
+/// Mathematical operation with left and right operands.
+/// </summary>
 and MathOperation =
     { Type: MathOperationType
       LeftOperand: ParseTree
@@ -23,6 +32,11 @@ type private ContinuationStep =
     | Finished
     | Step of ParseTree * (unit -> ContinuationStep)
 
+/// <summary>
+/// Evaluates the parse tree and returns the result.
+/// </summary>
+/// <param name="tree">Parse tree to evaluate.</param>
+/// <returns>Result of evaluating the parse tree.</returns>
 let evaluate tree =
     let rec linearize node continuation =
         match node with

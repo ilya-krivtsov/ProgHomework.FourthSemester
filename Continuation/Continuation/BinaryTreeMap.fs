@@ -4,6 +4,9 @@
 
 module BinaryTreeMap
 
+/// <summary>
+/// Binary tree that has value in node and two optional children.
+/// </summary>
 type BinaryTree<'a> =
     { Value: 'a
       LeftChild: Option<BinaryTree<'a>>
@@ -13,6 +16,12 @@ type private ContinuationStep<'a> =
     | Finished
     | Step of BinaryTree<'a> * (unit -> ContinuationStep<'a>)
 
+/// <summary>
+/// Maps given function over all values in nodes in the tree.
+/// </summary>
+/// <param name="func">Map function.</param>
+/// <param name="tree">Binary tree to map.</param>
+/// <returns>New binary tree with mapped values.</returns>
 let map func tree =
     let rec linearize node continuation =
         match node with

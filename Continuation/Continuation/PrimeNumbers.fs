@@ -8,6 +8,10 @@ type private State =
     { AccumulatedPrimes: int list
       LastPrime: int }
 
+/// <summary>
+/// Generates infinite sequence of prime numbers.
+/// </summary>
+/// <returns>Infinite sequence of prime numbers.</returns>
 let primeNumbers () =
     let nextPrimeGenerator (state: State) =
         let rec findNextPrime primeCandidate =

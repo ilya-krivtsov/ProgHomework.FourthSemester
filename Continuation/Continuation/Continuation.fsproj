@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="BinaryTreeMap.fs" />
+    <Compile Include="EvenNumbers.fs" />
+    <Compile Include="ParseTree.fs" />
+    <Compile Include="PowerSeries.fs" />
+    <Compile Include="PrimeNumbers.fs" />
+  </ItemGroup>
+
+</Project>

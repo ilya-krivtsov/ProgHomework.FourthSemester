@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Continuation/Continuation.fsproj" />
+  <Project Path="Continuation.Tests/Continuation.Tests.fsproj" />
+</Solution>

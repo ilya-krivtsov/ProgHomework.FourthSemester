@@ -1,3 +1,7 @@
+// <copyright file="ParseTreeTests.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module ParseTree.Tests
 
 open NUnit.Framework

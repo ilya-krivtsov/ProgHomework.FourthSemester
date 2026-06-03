@@ -1,3 +1,7 @@
+// <copyright file="PrimeNumbersTests.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module PrimeNumbers.Tests
 
 open NUnit.Framework

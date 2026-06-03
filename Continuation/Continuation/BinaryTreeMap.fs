@@ -1,3 +1,7 @@
+// <copyright file="BinaryTreeMap.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module BinaryTreeMap
 
 type BinaryTree<'a> =

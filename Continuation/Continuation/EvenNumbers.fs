@@ -1,3 +1,7 @@
+// <copyright file="EvenNumbers.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module EvenNumbers
 
 let evenNumbersCountA = List.map (fun x -> 1 - abs x % 2) >> List.sum

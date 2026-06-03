@@ -1,3 +1,7 @@
+// <copyright file="PrimeNumbers.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module PrimeNumbers
 
 type private State =

@@ -1,3 +1,7 @@
+// <copyright file="EvenNumbersTests.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module EvenNumbers.Tests
 
 open NUnit.Framework

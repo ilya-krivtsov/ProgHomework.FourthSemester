@@ -1,3 +1,7 @@
+// <copyright file="ParseTree.fs" company="Ilya Krivtsov">
+// Copyright (c) Ilya Krivtsov. All rights reserved.
+// </copyright>
+
 module ParseTree
 
 type MathOperationType =

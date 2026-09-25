@@ -15,6 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Include="BracketBalanceTests.fs" />
     <Compile Include="PointFreeTests.fs" />
   </ItemGroup>
 

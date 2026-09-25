@@ -6,6 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="BracketBalance.fs" />
     <Compile Include="PointFree.fs" />
   </ItemGroup>
 

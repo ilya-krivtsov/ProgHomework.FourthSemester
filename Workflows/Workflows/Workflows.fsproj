@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <Compile Include="RoundingWorkflow.fs" />
+    <Compile Include="StringExpressionWorkflow.fs" />
   </ItemGroup>
 
 </Project>

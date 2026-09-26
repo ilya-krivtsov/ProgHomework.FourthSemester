@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Compile Include="RoundingWorkflowTests.fs" />
+    <Compile Include="StringExpressionWorkflowTests.fs" />
   </ItemGroup>
 
   <ItemGroup>

@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Multithreading/Multithreading.fsproj" />
+  <Project Path="Multithreading.Tests/Multithreading.Tests.fsproj" />
+</Solution>

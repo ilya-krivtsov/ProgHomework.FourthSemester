@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <Compile Include="Lazy.fs" />
+    <Compile Include="MiniCrawler.fs" />
   </ItemGroup>
 
 </Project>

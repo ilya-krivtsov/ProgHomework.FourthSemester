@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <Compile Include="LazyTests.fs" />
+    <Compile Include="MiniCrawlerTests.fs" />
   </ItemGroup>
 
   <ItemGroup>
